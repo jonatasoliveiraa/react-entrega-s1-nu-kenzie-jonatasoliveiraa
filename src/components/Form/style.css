@@ -1,0 +1,494 @@
+@media (min-width: 320px) and (max-width: 543px){
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .containerDivCard{
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .divCard {
+    width: 90%;
+    height: 351px;
+    background-color: var(--color-white);
+    border-radius: 4px;
+    border: 2px solid var(--color-grey-2);
+    margin-bottom: 20px;
+  }
+  h4 {
+    font-weight: 600;
+    font-size: 0.875rem;
+  }
+  
+  .divDescription {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 25px;
+  }
+  .inputDescription {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: var(--color-grey-1);
+    border: 2px solid var(--color-grey-1);
+    outline: none;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  .exemple {
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: var(--color-grey-3);
+  }
+  
+  .addValue {
+  
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    padding: 0px 25px;
+    
+  }
+  .inputValue {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: var(--color-grey-1);
+    border: 2px solid var(--color-grey-1);
+    outline: none;
+    font-weight: 400;
+    font-size: 1rem;
+    width: 40%;
+  }
+  .btnAddValue {
+    width: 87%;
+    height: 3rem;
+    border: none;
+    background-color: var(--color-pink-primary);
+    border-radius: 8px;
+    font-family: var(--font-nunito);
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--color-white);
+    cursor: pointer;
+  }
+  select {
+    padding: 10px 60px 10px 10px;
+    border-radius: 8px;
+    background-color: var(--color-grey-1);
+    border: 2px solid var(--color-grey-1);
+    font-weight: 400;
+    font-size: 1rem;
+    outline: none;
+    color: var(--color-grey-3);
+  }
+  .divBtn {
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 544px) and (max-width: 768px){
+  .container{
+    margin-left: 10px;
+
+  }
+  .containerDivCard {
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+
+  }
+  .divCard {
+    width: 100%;
+    height: 351px;
+    background-color: var(--color-white);
+    border-radius: 4px;
+    border: 2px solid var(--color-grey-2);
+    margin-bottom: 20px;
+  }
+  h4 {
+    font-weight: 600;
+    font-size: 0.875rem;
+  }
+  
+  .divDescription {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 15px;
+  }
+  .inputDescription {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: var(--color-grey-1);
+    border: 2px solid var(--color-grey-1);
+    outline: none;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  .exemple {
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: var(--color-grey-3);
+  }
+  
+  .addValue {
+  
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    padding: 0px 25px;
+    
+  }
+  .inputValue {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: var(--color-grey-1);
+    border: 2px solid var(--color-grey-1);
+    outline: none;
+    font-weight: 400;
+    font-size: 1rem;
+    width: 40%;
+  }
+  .btnAddValue {
+    width: 87%;
+    height: 3rem;
+    border: none;
+    background-color: var(--color-pink-primary);
+    border-radius: 8px;
+    font-family: var(--font-nunito);
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--color-white);
+    cursor: pointer;
+  }
+  select {
+    padding: 10px 60px 10px 10px;
+    border-radius: 8px;
+    background-color: var(--color-grey-1);
+    border: 2px solid var(--color-grey-1);
+    font-weight: 400;
+    font-size: 1rem;
+    outline: none;
+    color: var(--color-grey-3);
+  }
+  .divBtn {
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1280px){
+  .containerDivCard {
+    display: flex;
+    margin: 40px 60px 0px 0px;
+    width: 100%;
+
+  }
+  .divCard {
+    width: 100%;
+    height: 351px;
+    background-color: var(--color-white);
+    border-radius: 4px;
+    border: 2px solid var(--color-grey-2);
+    margin-bottom: 20px;
+  }
+  h4 {
+    font-weight: 600;
+    font-size: 0.875rem;
+  }
+  
+  .divDescription {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 15px;
+  }
+  .inputDescription {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: var(--color-grey-1);
+    border: 2px solid var(--color-grey-1);
+    outline: none;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  .exemple {
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: var(--color-grey-3);
+  }
+  
+  .addValue {
+  
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    padding: 0px 25px;
+    
+  }
+  .inputValue {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: var(--color-grey-1);
+    border: 2px solid var(--color-grey-1);
+    outline: none;
+    font-weight: 400;
+    font-size: 1rem;
+    width: 40%;
+  }
+  .btnAddValue {
+    width: 87%;
+    height: 3rem;
+    border: none;
+    background-color: var(--color-pink-primary);
+    border-radius: 8px;
+    font-family: var(--font-nunito);
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--color-white);
+    cursor: pointer;
+  }
+  select {
+    padding: 10px 60px 10px 10px;
+    border-radius: 8px;
+    background-color: var(--color-grey-1);
+    border: 2px solid var(--color-grey-1);
+    font-weight: 400;
+    font-size: 1rem;
+    outline: none;
+    color: var(--color-grey-3);
+  }
+  .divBtn {
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1281px) and (max-width: 2560px){
+  .container {
+    margin: 40px 60px 0px 0px;
+  }
+
+  .containerDivCard {
+    display: flex;
+    width: 100%;
+
+  }
+  .divCard {
+    width: 363px;
+    height: 351px;
+    background-color: var(--color-white);
+    border-radius: 4px;
+    border: 2px solid var(--color-grey-2);
+    margin-bottom: 20px;
+  }
+  h4 {
+    font-weight: 600;
+    font-size: 0.875rem;
+  }
+  
+  .divDescription {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 25px;
+  }
+  .inputDescription {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: var(--color-grey-1);
+    border: 2px solid var(--color-grey-1);
+    outline: none;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  .exemple {
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: var(--color-grey-3);
+  }
+  
+  .addValue {
+  
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    padding: 0px 25px;
+    
+  }
+  .inputValue {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: var(--color-grey-1);
+    border: 2px solid var(--color-grey-1);
+    outline: none;
+    font-weight: 400;
+    font-size: 1rem;
+    width: 40%;
+  }
+  .btnAddValue {
+    width: 87%;
+    height: 3rem;
+    border: none;
+    background-color: var(--color-pink-primary);
+    border-radius: 8px;
+    font-family: var(--font-nunito);
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--color-white);
+    cursor: pointer;
+  }
+  select {
+    padding: 10px 60px 10px 10px;
+    border-radius: 8px;
+    background-color: var(--color-grey-1);
+    border: 2px solid var(--color-grey-1);
+    font-weight: 400;
+    font-size: 1rem;
+    outline: none;
+    color: var(--color-grey-3);
+  }
+  .divBtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.container {
+    margin: 40px 60px 0px 0px;
+  }
+  .divCard {
+    width: 363px;
+    height: 351px;
+    background-color: var(--color-white);
+    border-radius: 4px;
+    border: 2px solid var(--color-grey-2);
+    margin-bottom: 20px;
+  }
+  h4 {
+    font-weight: 600;
+    font-size: 0.875rem;
+  }
+  
+  .divDescription {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 25px;
+  }
+  .inputDescription {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: var(--color-grey-1);
+    border: 2px solid var(--color-grey-1);
+    outline: none;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  .exemple {
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: var(--color-grey-3);
+  }
+  
+  .addValue {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    padding: 0px 25px;
+  }
+  .inputValue {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: var(--color-grey-1);
+    border: 2px solid var(--color-grey-1);
+    outline: none;
+    font-weight: 400;
+    font-size: 1rem;
+    width: 40%;
+  }
+  .btnAddValue {
+    width: 19.625rem;
+    height: 3rem;
+    border: none;
+    background-color: var(--color-pink-primary);
+    border-radius: 8px;
+    font-family: var(--font-nunito);
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--color-white);
+    cursor: pointer;
+  }
+  select {
+    padding: 10px 60px 10px 10px;
+    border-radius: 8px;
+    background-color: var(--color-grey-1);
+    border: 2px solid var(--color-grey-1);
+    font-weight: 400;
+    font-size: 1rem;
+    outline: none;
+    color: var(--color-grey-3);
+  }
+  .divBtn {
+    display: flex;
+    justify-content: center;
+  }
+   */

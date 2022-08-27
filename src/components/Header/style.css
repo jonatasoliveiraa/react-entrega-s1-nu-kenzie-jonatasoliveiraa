@@ -1,0 +1,108 @@
+ @media (min-width: 320px) and (max-width: 543px){
+  .App-header {
+    background-color: var(--color-grey-1);
+    height: 5.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.25rem;
+    box-shadow: 0px 4px 25px -15px var(--box-shadow);
+  }
+  .buttonLogout {
+    font-family: var(--font-nunito);
+    background-color: var(--color-grey-2);
+    padding: 0.625rem 0.9375rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.875rem;
+    cursor: pointer;
+  }
+}
+
+ @media (min-width: 544px) and (max-width: 768px){
+  .App-header {
+    background-color: var(--color-grey-1);
+    height: 5.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.25rem;
+    box-shadow: 0px 4px 25px -15px var(--box-shadow);
+  }
+  .buttonLogout {
+    font-family: var(--font-nunito);
+    background-color: var(--color-grey-2);
+    padding: 0.625rem 0.9375rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.875rem;
+    cursor: pointer;
+
+  }
+}
+
+ @media (min-width: 768px) and (max-width: 1280px){
+  .App-header {
+    padding-left: 80px;
+    padding-right: 100px;
+    background-color: var(--color-grey-1);
+    height: 5.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 25px -15px var(--box-shadow);
+  }
+  .buttonLogout {
+    font-family: var(--font-nunito);
+    background-color: var(--color-grey-2);
+    padding: 0.625rem 0.9375rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.875rem;
+    cursor: pointer;
+
+  }
+}
+
+ @media (min-width: 1281px) and (max-width: 2560px){
+  .App-header {
+    background-color: var(--color-grey-1);
+    height: 5.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 260px;
+    box-shadow: 0px 4px 25px -15px var(--box-shadow);
+  }
+  .buttonLogout {
+    font-family: var(--font-nunito);
+    background-color: var(--color-grey-2);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 0.875rem;
+  }
+}
+/* .App-header {
+    background-color: var(--color-grey-1);
+    height: 5.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 260px;
+    box-shadow: 0px 4px 25px -15px var(--box-shadow);
+  }
+  .buttonLogout {
+    font-family: var(--font-nunito);
+    background-color: var(--color-grey-2);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.875rem;
+  } */

@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: var(--font-nunito);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: var(--font-nunito),
+    monospace;
+}
+:root{
+  --color-pink-primary: #FD377E;
+  --color-pink-primary2: ##E34981;
+  --color-secundary: #03B898;
+  --color-primary-disable: #a0adf9;
+
+  --box-shadow: rgba(0, 0, 0, 0.5);
+
+  --color-white: #ffffff;
+
+  --color-grey-1: #F8F9FA;
+  --color-grey-2: #E9ECEF;
+  --color-grey-3: #868E96;
+  --color-grey-4: #212529;
+
+  --font-nunito: "Nunito", sans-serif;
+}
